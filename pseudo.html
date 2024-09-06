@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo</title>
+  <style>
+    h2 {
+      color: peru;
+    }
+    /* hover means mouse over */
+    h2:hover {
+      color: tomato;
+      background-color: skyblue;
+    }
+    input:focus {
+      color: blue;
+      outline: 0;
+      border: 2px solid red;
+      border-radius: 5px;
+    }
+    a:visited {
+      color: tomato;
+    }
+    /* li:last-child { 
+      color: skyblue;
+    } */
+    /* li:first-child {
+      background-color: aqua;
+    } */
+    /* li:nth-child(2n) {
+      color: violet;
+    } */
+    li:nth-child(2n+1) {
+      color: tomato;
+    }
+    /* li:nth-child(3n+1) {
+      color: tomato;
+    } */
+  </style>
+</head>
+<body>
+  <h2>My heading</h2>
+
+  <input type="text" name="my-name" id="my-name"> <br><br>
+  <input type="text" name="my-name" id="my-name"> <br><br>
+  <input type="text" name="my-name" id="my-name"> <br><br>
+
+  <a href="https://google.com">Google</a> <br>
+  <a href="https://www.w3schools.com/css/">CSS</a>
+
+  <ul>
+    <li>Alia</li>
+    <li>Dalia</li>
+    <li>Balia</li>
+    <li>Kalia</li>
+    <li>Maliya</li>
+    <li>Palaiya</li>
+    <li>Jalaiya</li>
+  </ul>
+</body>
+</html>
